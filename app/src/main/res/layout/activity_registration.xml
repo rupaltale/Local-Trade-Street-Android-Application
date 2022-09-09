@@ -8,23 +8,24 @@
     tools:context=".Registration">
 
 
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="341dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="196dp"
-        android:background="#FEFEFE"
-        android:ems="10"
-        android:hint="Owner's Name*"
-        android:inputType="textPersonName"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="341dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="196dp"
+            android:background="#FEFEFE"
+            android:ems="10"
+            android:hint="Owner's Name*"
+            android:inputType="textPersonName"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="341dp"
         android:layout_height="42dp"
@@ -92,6 +93,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <EditText
         android:id="@+id/address"
         android:layout_width="338dp"
@@ -103,20 +105,20 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
-
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName4"
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="428dp"
-        android:layout_height="70dp"
+        android:layout_width="410dp"
+        android:layout_height="64dp"
         android:layout_marginBottom="32dp"
         android:background="#FBFBF9"
         android:selectAllOnFocus="false"
         android:shadowColor="#6A6464"
-        android:text="                            List Your Business Here"
+        android:text="                        List Your Business Here"
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -185,7 +187,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="76dp"
+        android:layout_width="74dp"
         android:layout_height="64dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
